@@ -27,13 +27,11 @@ public class ValidacoesStringTests
         var texto = "Esse é um texto qualquer";
         var textoProcurado = "qualquer";
 
-        //TODO: Corrigir a chamada do método "ContemCaractere" da seção Act
         // Act
-        _validacoes.ContemCaractere(texto, textoProcurado);
+        var resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
         // Assert
-        //TODO: Corrigir o Assert.True com base no retorno da chamada ao método
-        Assert.True(true);
+        Assert.True(resultado);
     }
 
     [Fact]
